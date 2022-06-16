@@ -1,0 +1,31 @@
+{
+  "name": "ramdom-messages",
+  "version": "1.0.0",
+  "description": "random de mensajes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseme18/ramdom-messages.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
+  "author": "Jose Perales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseme18/ramdom-messages/issues"
+  },
+  "homepage": "https://github.com/joseme18/ramdom-messages#readme",
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "user": "^0.0.0"
+  }
+}
